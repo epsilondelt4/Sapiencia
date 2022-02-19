@@ -1,14 +1,14 @@
 {
-    "456": {
-        "Identificación": "456",
-        "Nombre": "4569"
-    },
-    "789456": {
-        "Identificación": "789456",
-        "Nombre": "loko"
-    },
-    "49563": {
-        "Identificación": "49563",
-        "Nombre": "78lo"
+    "1": {
+        "Identificación": "1",
+        "Nombre": "1",
+        "Correo": "1",
+        "Teléfono": "1",
+        "Fecha de nacimiento": "1",
+        "Nota 1": "1",
+        "Nota 2": "1",
+        "Nota 3": "1",
+        "Nota 4": "1",
+        "Nota final": "0"
     }
 }
