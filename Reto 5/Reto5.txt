@@ -1,0 +1,70 @@
+RETO 5
+
+Desarrolle una aplicación que permita administrar las notas de un grupo de estudiantes.
+
+Primero se debe tener una estructura de datos en la cual se puedan almacenar los siguientes datos de un estudiante:
+
+o	Identificación
+o	Nombre
+o	Correo
+o	Teléfono
+o	Fecha de nacimiento
+o	Nota 1
+o	Nota 2
+o	Nota 3
+o	Nota 4
+
+En caso de que decida usar como estructura de dato un “diccionario”, defina y escoja el dato más indicado para ser su llave, o defina otro dato como llave nueva.
+
+Cree un menú dentro de una función, el cual imprima las siguientes opciones numeradas para luego recibir por consola la elección del usuario. Cada una de las opciones debe ejecutar el llamado de una función en la que se ejecute la tarea indicada:
+
+•	Agregar: se debe pedir al usuario que ingrese todos los datos del estudiante (se pueden crear todos los estudiantes que se quiera agregar).
+
+•	Buscar: se debe pedir al usuario que ingrese un dato con el cual se pueda identificar un estudiante que desea consultar (el dato para buscar lo elige el desarrollador) y verificar si el estudiante existe para luego imprimir toda la información de este.
+
+•	Modificar: se debe realizar el mismo proceso de búsqueda de la opción “Buscar” y luego se debe pedir al usuario que ingrese todos los nuevos datos para el estudiante; solo se pueden modificar notas.
+
+•	Cancelación de materia: se debe realizar el mismo proceso de búsqueda en la opción “Buscar” y luego se debe confirmar si el usuario quiere eliminar el contacto.
+
+•	Resultados por estudiante: se debe inicialmente buscar el estudiante del cual se quiere conocer los resultados (se sugiere usar el código usado en la opción “Buscar”), y luego se deben realizar los siguientes cálculos y mostrar los resultados en pantalla.
+
+o	Nota final del estudiante
+o	Nota promedio del grupo
+o	Informar si el estudiante estuvo por encima o por debajo de la media
+o	Informar si el estudiante ganó o perdió el curso
+o	Informar en qué percentil se encuentra el estudiante
+
+•	Informe de grupo: haga los cálculos necesarios y muestre en pantalla los siguientes resultados:
+
+o	Nota final por estudiante
+o	Nota promedio
+o	Número de estudiantes por encima, por debajo e iguales al promedio
+o	Número de estudiantes ganadores y perdedores (establezca el valor a partir del cual se gana)
+o	Porcentaje de ganadores y porcentaje de perdedores
+o	Distribución de estudiantes por percentil
+o	Moda
+o	Mediana
+o	Desviación estándar
+
+•	Salir: se debe finalizar la ejecución de la aplicación.
+
+Tras finalizar las tareas que correspondan a la opción seleccionada, se debe volver a imprimir el menú principal. 
+
+Finalmente, desarrolle una solución al problema creando la aplicación en el lenguaje de programación Python de manera que cumpla con los requerimientos que se piden y siguiendo las indicaciones que se le dan en el enunciado.
+
+6.	Criterios de valoración de la evidencia
+
+•	La aplicación funciona (40%).
+•	La aplicación cumple con todos los requerimientos pedidos (40%).
+•	Usa correctamente del paradigma funcional (20%).
+
+7.	Protocolo de entrega
+
+•	Formato: Comprima el archivo en .zip con el siguiente nombre:
+[NOMBREINTEGRANTE1,NOMBREINTEGRANTE2]_Reto5.zip 
+
+donde [NOMBREINTEGRANTE] es su nombre y apellidos, empezando por mayúscula cada uno. Ej:
+AndresRestrepoG,DianaLopez_Reto5.zip
+
+•	Medio: suba el archivo .zip en la plataforma de Moodle en la sección correspondiente para la “entrega de trabajos del reto 5”.
+
